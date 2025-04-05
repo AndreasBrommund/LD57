@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Edge",
+  "%Name":"EdgeObject",
   "eventList":[],
   "managed":true,
-  "name":"Edge",
+  "name":"EdgeObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
