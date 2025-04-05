@@ -33,6 +33,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"velocity","filters":[],"listItems":[],"multiselect":false,"name":"velocity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"engineParticleSystem","filters":[
+        "GMParticleSystem",
+      ],"listItems":[],"multiselect":false,"name":"engineParticleSystem","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"EngineBubblesParticleSystem","path":"particles/EngineBubblesParticleSystem/EngineBubblesParticleSystem.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"EngineBubblesParticleSystem","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
