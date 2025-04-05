@@ -6,12 +6,17 @@
   ],
   "managed":true,
   "name":"BulletObject",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentWeapondObject","path":"objects/ParentWeapondObject/ParentWeapondObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentWeapondObject/ParentWeapondObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Weaponds",
+    "path":"folders/Objects/Weaponds.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentWeapondObject",
+    "path":"objects/ParentWeapondObject/ParentWeapondObject.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
