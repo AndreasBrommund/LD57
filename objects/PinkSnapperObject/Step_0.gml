@@ -1,21 +1,24 @@
 image_angle = direction
 
-if (y > room_height) {
-	 y = sprite_height;
+var offset_y = sprite_height;
+var offset_x = sprite_width;
+
+if (y > room_height + offset_y) {
+	 y = 0;
 	 path_start(path, velocity, path_action_continue, false)
 }
 
-if (y < 0) {
-	 y = room_height - sprite_height;
+if (y < -offset_y) {
+	 y = room_height;
 	 path_start(path, velocity, path_action_continue, false)
 }
 
-if (x > room_width) {
-	 x = sprite_width;
+if (x > room_width + offset_x) {
+	 x = 0;
 	 path_start(path, velocity, path_action_continue, false)
 }
 
-if (x < 0) {
-	 x = sprite_width;
+if (x < -offset_x) {
+	 x = room_width;
 	 path_start(path, velocity, path_action_continue, false)
 }
