@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"ParentEnemyObject",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ParentWeapondObject","path":"objects/ParentWeapondObject/ParentWeapondObject.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ParentWeaponObject","path":"objects/ParentWeaponObject/ParentWeaponObject.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ParentEnemyObject",

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"ParentWeapondObject",
+  "%Name":"ParentWeaponObject",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ParentWeapondObject",
+  "name":"ParentWeaponObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weaponds",
-    "path":"folders/Objects/Weaponds.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
