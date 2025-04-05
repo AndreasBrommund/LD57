@@ -10,6 +10,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"hp","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"velocity","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"random",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"path","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resource":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PinkSnapperPath",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Enemies",
