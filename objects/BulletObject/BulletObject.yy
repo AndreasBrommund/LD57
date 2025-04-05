@@ -7,15 +7,15 @@
   "managed":true,
   "name":"BulletObject",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentWeapondObject","path":"objects/ParentWeapondObject/ParentWeapondObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentWeapondObject/ParentWeapondObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentWeaponObject","path":"objects/ParentWeaponObject/ParentWeaponObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentWeaponObject/ParentWeaponObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"Weaponds",
-    "path":"folders/Objects/Weaponds.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
   "parentObjectId":{
-    "name":"ParentWeapondObject",
-    "path":"objects/ParentWeapondObject/ParentWeapondObject.yy",
+    "name":"ParentWeaponObject",
+    "path":"objects/ParentWeaponObject/ParentWeaponObject.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,6 +32,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"speed","filters":[],"listItems":[],"multiselect":false,"name":"speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"roomMargin","filters":[],"listItems":[],"multiselect":false,"name":"roomMargin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
