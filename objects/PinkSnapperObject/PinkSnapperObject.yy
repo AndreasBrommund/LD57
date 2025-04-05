@@ -1,14 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"FishObject",
+  "%Name":"PinkSnapperObject",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"FishObject",
+  "name":"PinkSnapperObject",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"hp","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"velocity","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"random",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"path","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resource":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PinkSnapperPath",},
   ],
   "parent":{
     "name":"Enemies",
@@ -41,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"FishSprite",
-    "path":"sprites/FishSprite/FishSprite.yy",
+    "name":"PinkSnapperSprite",
+    "path":"sprites/PinkSnapperSprite/PinkSnapperSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
