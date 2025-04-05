@@ -34,11 +34,13 @@
   },
   "name":"Dive",
   "resources":[
+    {"id":{"name":"BulletObject","path":"objects/BulletObject/BulletObject.yy",},},
     {"id":{"name":"EdgeObject","path":"objects/EdgeObject/EdgeObject.yy",},},
     {"id":{"name":"FishObject","path":"objects/FishObject/FishObject.yy",},},
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},},
     {"id":{"name":"FishPath","path":"paths/FishPath/FishPath.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
     {"id":{"name":"EdgeSprite","path":"sprites/EdgeSprite/EdgeSprite.yy",},},
     {"id":{"name":"FishSprite","path":"sprites/FishSprite/FishSprite.yy",},},
     {"id":{"name":"SubmarineSprite","path":"sprites/SubmarineSprite/SubmarineSprite.yy",},},
