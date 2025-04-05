@@ -37,6 +37,7 @@
   "name":"Dive",
   "resources":[
     {"id":{"name":"BulletObject","path":"objects/BulletObject/BulletObject.yy",},},
+    {"id":{"name":"HUD","path":"objects/HUD/HUD.yy",},},
     {"id":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},},
     {"id":{"name":"ParentWeaponObject","path":"objects/ParentWeaponObject/ParentWeaponObject.yy",},},
     {"id":{"name":"PinkSnapperObject","path":"objects/PinkSnapperObject/PinkSnapperObject.yy",},},
