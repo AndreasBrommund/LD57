@@ -44,6 +44,7 @@
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},},
     {"id":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"PathExtensionScript","path":"scripts/PathExtensionScript/PathExtensionScript.yy",},},
     {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
     {"id":{"name":"EdgeSprite","path":"sprites/EdgeSprite/EdgeSprite.yy",},},
     {"id":{"name":"PinkSnapperSprite","path":"sprites/PinkSnapperSprite/PinkSnapperSprite.yy",},},
