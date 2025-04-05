@@ -41,6 +41,7 @@
     {"id":{"name":"ParentWeaponObject","path":"objects/ParentWeaponObject/ParentWeaponObject.yy",},},
     {"id":{"name":"PinkSnapperObject","path":"objects/PinkSnapperObject/PinkSnapperObject.yy",},},
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},},
+    {"id":{"name":"EngineBubblesParticleSystem","path":"particles/EngineBubblesParticleSystem/EngineBubblesParticleSystem.yy",},},
     {"id":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
