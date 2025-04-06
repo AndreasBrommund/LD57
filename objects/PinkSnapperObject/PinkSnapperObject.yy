@@ -3,13 +3,14 @@
   "%Name":"PinkSnapperObject",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"PinkSnapperObject",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"hp","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"velocity","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"random",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"path","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resource":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PinkSnapperPath",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
@@ -38,7 +39,11 @@
     {"x":0.0,"y":48.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"path","filters":[
+        "GMPath",
+      ],"listItems":[],"multiselect":false,"name":"path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"PinkSnapperPath","path":"paths/PinkSnapperPath/PinkSnapperPath.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"PinkSnapperPath","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
