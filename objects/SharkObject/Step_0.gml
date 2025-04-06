@@ -29,3 +29,10 @@ if (x < -offset_x) {
 		x = room_width;
 		path_start(path, velocity, path_action_continue, false)
 }
+
+if can_attack && distance_to_object(player) < fieldOfView {
+	path_end();
+	move_towards_point(player.x, player.y, attack_speed);
+} else if(path_index == -1) {
+	path_start(path, velocity, path_action_continue, false);
+}

@@ -11,6 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"hp","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"velocity","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"Enemies",

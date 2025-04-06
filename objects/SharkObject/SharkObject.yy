@@ -11,6 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"hp","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"velocity","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"damage","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentEnemyObject","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/ParentEnemyObject/ParentEnemyObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
     "name":"Enemies",
@@ -37,6 +38,8 @@
     {"$GMObjectProperty":"v1","%Name":"path","filters":[
         "GMPath",
       ],"listItems":[],"multiselect":false,"name":"path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"SharkPath","path":"paths/SharkPath/SharkPath.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SharkPath","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"fieldOfView","filters":[],"listItems":[],"multiselect":false,"name":"fieldOfView","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"300","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"attack_speed","filters":[],"listItems":[],"multiselect":false,"name":"attack_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
